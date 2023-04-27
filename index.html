@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Trivia</h1>
+    </header>
+    
+    <main>
+        <section class= "card-timer">
+            <h2>Seconds remaining</h2>
+            <div class = "timer-text"></div>
+            <div class="timer-count"></div>
+            <button class="start-button">Start</button>
+        </section>
+        
+        <section class="questionsChoices">
+            <div class="questions"></div>
+            <ul class="choices"></ul>
+        </section>
+
+        <section class="finish">
+            <h2>Game Completed!</h2>
+            <h3>Your score: <span class = "score"></span></h3>
+            <form class="card-initials">
+                <div>Enter your initials here:</div>
+                <input type = "text" id="initials"/>
+            </form>
+            <button id="submitButton">Submit</button>
+        </section>
+
+        <section class="card-results">
+            <h2>Results:</h2>
+            <ul id="initialResult"></ul>
+        </section>
+
+        <script src="./assets/js/script.js"></script>
+
+    </main>
+</body>
+</html>
