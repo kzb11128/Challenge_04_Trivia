@@ -24,6 +24,6 @@ THEN I can save my initials and my score
 ```
 
 # Mock Up
-![Screenshot](#)
+![Screenshot](./asset/image/mockup.jpg)
 
-[Link](#) to Trivia!
+[Link](https://kzb11128.github.io/Challenge_04_Trivia/) to Trivia!
